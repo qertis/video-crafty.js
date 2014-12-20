@@ -1,12 +1,13 @@
 video-crafty.js
 ===============
 
-HTML5 Video crafty.js module
+## HTML5 Video crafty.js module
 
-How to use.
-1. Insert script video-crafty.js on your html5 page
-2. After Crafty.init write for FullScreenStyle:
+### How to use.
+Insert script video-crafty.js on your html5 page
+After Crafty.init write for FullScreenStyle:
 
+```javascript
   Crafty.e('Video').attr({
     poster: 'your_poster.jpg', //optional
     videos: {
@@ -17,8 +18,8 @@ How to use.
   }).createVideo()
     .setFullScreenStyle() // or setInnerScreenStyle
   ;
+```
   
-  
-DEMO:
-InnerVideo: would be later :)
+### DEMO:
+InnerVideo: would be later :)  <br>
 FullVideo: http://codepen.io/qertis/full/mIgzf/
